@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PictureEditor</string>
+    <string name="splash_bottom">©夜莺夜影, all rights reserved</string>
+    <string name="main_top">想干点啥</string>
+</resources>
