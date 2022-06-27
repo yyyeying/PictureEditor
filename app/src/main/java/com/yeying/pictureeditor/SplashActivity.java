@@ -11,11 +11,13 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.io.File;
 
 public class SplashActivity extends AppCompatActivity {
     private ImageView mImageSplash;
+    private TextView mTextBottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class SplashActivity extends AppCompatActivity {
 
     private void initView() {
         mImageSplash = findViewById(R.id.splash_image);
+        mTextBottom = findViewById(R.id.splash_text);
         initImage();
     }
 
